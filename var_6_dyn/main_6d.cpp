@@ -36,5 +36,6 @@ int main()
     catch (std::invalid_argument e) {
         std::cout << e.what();
     }
+    delete []array;
     return 0;
 }
